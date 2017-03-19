@@ -1,0 +1,12 @@
+1.git config -l 查看全局用户信息配置
+
+2.git coonfig user.name = "liuburu" 配置用户名
+
+3.git add Hello.java 添加文件到暂存区
+
+4.git commit -m "注释语" 添加文件到工作区
+
+5.git status 查看工作区文件状态
+
+6.git log -pretty=online 版本格式显示
+
