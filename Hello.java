@@ -1,4 +1,6 @@
-﻿
+﻿/**
+ *刘卜铷写的Hello.java
+ */
 public class Hello{
 
 	public String brhName;//this is MASTER note
