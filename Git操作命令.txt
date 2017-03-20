@@ -16,7 +16,45 @@
 
 9.git reset --hard  e9a40a4  回退到指定的版本
 
-10：git checkout Hello.java 修改了文件未添加到暂存区，回退修改
+10.git diff head Hello.java 与前一个版本作比较
 
-11：git reset head Hello.java + git checkout Hello.java 修改了文件已添加到暂存区，回退修改
+11.git remote add origin url..  把github与本地仓库相关联
+
+12.git push -u origin master 把本地内容推送到github上
+
+13.git remote -v 查看远程服务器已经存在的版本
+
+14.git remote rm test 删除远程test仓库
+
+15.git commit -a -m "一步提交操作"
+
+16.git clone url  克隆远程仓库
+
+17.git branch brh 创建一个分支
+
+18.git branch 查看分支
+
+19.git checkout brh 切换分支
+
+20.git branch -d brh 删除分支
+
+21.git checkout -b brh 创建并且切换分支
+
+22.git push brh 推送分支到远程仓库
+
+23.git push origin --delete brh 删除远程分支
+
+24.git branch -m brh newBrh 分支重命名
+
+25.git branch -a/-r/-l  查看全部/远程/本地分支
+
+26.git branch -D newBrh 删除分支(分支还未合并，强制删除)
+
+27.git push origin --delete newBrh / git brh newBrh +git push origin newBrh 推送空分支
+
+28.Git自动解决冲突与手动解决冲突
+
+29.git log --graph --pretty=oneling  图形显示日志
+
+30.
 
