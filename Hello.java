@@ -16,5 +16,9 @@ public class Hello{
 	public void fun(){
 		System.out.println("This is fun Function");//test git pull cmd ********
 	}
+
+	public void testStash(){
+		System.out.println("分支暂存测试");
+	}
 }
 }
