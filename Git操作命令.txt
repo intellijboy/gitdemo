@@ -99,10 +99,16 @@ Import code
 	
 
 33.暂存区的使用	
-
+	git stash 暂存
+	
+	git pop   回复使用并且删除暂存
+	git stash apply 暂存应用恢复
+	git stash drop 暂存删除
 
 
 34.标签的使用
+
+	
 
 
 

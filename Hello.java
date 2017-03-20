@@ -1,5 +1,5 @@
 ﻿/**
- *刘卜铷写的Hello.java
+ *刘卜铷写的Hello.java 2017年3月20日17:39:23
  */
 public class Hello{
 
@@ -18,7 +18,8 @@ public class Hello{
 	}
 
 	public void testStash(){
-		System.out.println("分支暂存测试");
+		System.out.println("分支暂存测试66666");
+		System.out.println("分支暂存测试66666");
 	}
 }
 }
