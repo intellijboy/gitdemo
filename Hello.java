@@ -1,7 +1,7 @@
 ﻿
 public class Hello{
 
-	privat String brhName;//this is MASTER note
+	public String brhName;//this is MASTER note
 
 	public static void main(String[] args) {
 		System.out.println("你好Git先生！");
