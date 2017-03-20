@@ -11,6 +11,10 @@ public class Hello{
 	}
 	public String toString(){
 		return "Hello Git";//我在github上添加的注释
-}
+	}
+	
+	public void fun(){
+		System.out.println("This is fun Function");
+	}
 }
 }
