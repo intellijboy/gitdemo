@@ -14,7 +14,7 @@ public class Hello{
 	}
 	
 	public void fun(){
-		System.out.println("This is fun Function");
+		System.out.println("This is fun Function");//test git pull cmd
 	}
 }
 }
