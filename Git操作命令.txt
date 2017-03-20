@@ -56,5 +56,54 @@
 
 29.git log --graph --pretty=oneling  图形显示日志
 
-30.
+30.【本地-->远程】
+意思：如有没有本地仓库使用第一种方法与远程仓库关联
+	如果有本地仓库，那么就是用第二种方法与远程仓库关联
+We recommend every repository include a README, LICENSE, and .gitignore.
+…or create a new repository on the command line
+
+echo "# gitdemo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/kakaluote444/gitdemo.git
+git push -u origin master
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/kakaluote444/gitdemo.git
+git push -u origin master
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+Import code
+
+31.怎么同步远程仓库到本地【远程-->本地】
+    ·git remote -v 查看远程仓库 
+    ·git fetch origin master 把远程仓库orgin的master分支下的代码下到本地的origin/master分之下
+    ·git log -p master..origin/master 比较两个版本的差别
+    ·git merge origin/master	
+    ·git fetch orgin master:temp
+    ·git diff temp
+    ·git merge temp
+
+     git pull origin master(相当于是从远程获取最新版本并merge到本地)
+
+
+32.推送分支到远程分支以及删除远程分支
+	
+	 git push origin --delete lxh 删除远程分支
+	 git branch lxh + git push origin :lxh  推送空分支删除远程分支
+
+ 	 git branch -d | -D branchname 删除branchname分支
+	 git branch -m|M oldbranch newbranch 重命名分支，M强制重命名
+	
+
+33.暂存区的使用	
+
+
+
+34.标签的使用
+
+
+
 
