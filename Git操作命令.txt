@@ -50,7 +50,8 @@
 
 26.git branch -D newBrh 删除分支(分支还未合并，强制删除)
 
-27.git push origin --delete newBrh / git branch newBrh +git push origin newBrh 推送空分支
+27.git push origin --delete newBrh / git branch newBrh +git push origin :newBrh 推送空分支
+
 
 28.Git自动解决冲突与手动解决冲突
 
