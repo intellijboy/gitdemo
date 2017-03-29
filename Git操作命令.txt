@@ -82,6 +82,7 @@ Import code
     ·git fetch origin master 把远程仓库orgin的master分支下的代码下到本地的origin/master分之下
     ·git log -p master..origin/master 比较两个版本的差别
     ·git merge origin/master	
+
     ·git fetch orgin master:temp
     ·git diff temp
     ·git merge temp

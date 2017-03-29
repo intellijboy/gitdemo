@@ -20,6 +20,11 @@ public class Hello{
 	public void testStash(){
 		System.out.println("分支暂存测试66666");
 		System.out.println("分支暂存测试66666");
+System.out.println("分支暂存测试66666");
+System.out.println("分支暂存测试66666");
+System.out.println("分支暂存测试66666");
+System.out.println("分支暂存测试66666");
+System.out.println("分支暂存测试66666");
 	}
 }
 }
