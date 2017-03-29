@@ -78,6 +78,16 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 Import code
 
 31.怎么同步远程仓库到本地【远程-->本地】
+     
+     ·远程分支先创建，如何使让其与本地进行关联，需要使用:
+	git branch --set-upstream-to = origin/liuburu
+
+     ·git fetch origin liuburu master:temp
+	把远程分支上的liuburu分支抓取到本地的temp分支上
+	注意：此时liuburu分支上的数据并未同步到本地，需要
+	使用git merge origin/liuburu 进行数据同步
+
+
     ·git remote -v 查看远程仓库 
     ·git fetch origin master 把远程仓库orgin的master分支下的代码下到本地的origin/master分之下
     ·git log -p master..origin/master 比较两个版本的差别
