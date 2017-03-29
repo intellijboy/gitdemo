@@ -50,7 +50,7 @@
 
 26.git branch -D newBrh 删除分支(分支还未合并，强制删除)
 
-27.git push origin --delete newBrh / git brh newBrh +git push origin newBrh 推送空分支
+27.git push origin --delete newBrh / git branch newBrh +git push origin newBrh 推送空分支
 
 28.Git自动解决冲突与手动解决冲突
 
@@ -149,6 +149,19 @@ track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的。
 git rm -r --cached .
 git add .
 git commit -m 'update .gitignore'
+
+
+36:多人开发场景（自动决定冲突、手动解决冲突）
+
+
+1.前提：老板创建好了远程仓库，并且含有readme.md文件,并且创建好了一个公共类型的配置文件config.properties(为了版本演示冲突)
+
+注意：每一个开发者都应该遵循:第一次：克隆->增删改查->提交  以后：拉取->增删改查->提交
+
+刘卜铷：拉取远程项目,创建分支coder_lbrhy并且进行，创建LiuBuRu.java文件进行远程推送
+
+黄  莹：拉取远程项目，切换到coder_lbrhy分支上，创建HuangYing.java文件并且进行远程推送
+
 
 
 
