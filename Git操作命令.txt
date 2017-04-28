@@ -100,6 +100,9 @@ Import code
     ·git merge temp
 
      git pull origin master(相当于是从远程获取最新版本并merge到本地)
+     
+     
+     git checkout -b local-branchname origin/remote_branchname拉取远程分支上的代码到本地，并且切换到该分支
 
 
 32.推送分支到远程分支以及删除远程分支
